@@ -1,0 +1,32 @@
+{
+  "name": "HomeLib",
+  "version": "0.1.0",
+  "summary": "A short description of HomeLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mac027/HomeLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mac027": "1401788197"
+  },
+  "source": {
+    "git": "https://github.com/Mac027/HomeLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "HomeLib/Classes/**/*",
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "FRAMEWORK_SEARCH_PATHS": [
+      "${PODS_CONFIGURATION_BUILD_DIR}/CommonLib"
+    ]
+  },
+  "frameworks": "CommonLib",
+  "resources": [
+    "HomeLib/Assets/**/*.xcassets"
+  ]
+}

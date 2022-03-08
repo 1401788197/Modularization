@@ -1,0 +1,33 @@
+{
+  "name": "CommonLib",
+  "version": "0.1.0",
+  "summary": "A short description of CommonLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mac027/CommonLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mac027": "1401788197"
+  },
+  "source": {
+    "git": "https://github.com/Mac027/CommonLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "CommonLib/Classes/**/*",
+  "dependencies": {
+    "Moya/RxSwift": [
+      "~> 15.0"
+    ],
+    "HandyJSON": [
+
+    ],
+    "CTMediator": [
+
+    ]
+  }
+}

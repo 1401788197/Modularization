@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (5.5.0)
+  - CommonLib (0.1.0):
+    - CTMediator
+    - HandyJSON
+    - Moya/RxSwift (~> 15.0)
+  - CTMediator (46)
+  - HandyJSON (5.0.2)
+  - MineLib (0.1.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/RxSwift (15.0.0):
+    - Moya/Core
+    - RxSwift (~> 6.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - CommonLib (from `../../CommonLib`)
+  - MineLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CTMediator
+    - HandyJSON
+    - Moya
+    - RxSwift
+
+EXTERNAL SOURCES:
+  CommonLib:
+    :path: "../../CommonLib"
+  MineLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  CommonLib: 34f91475c79f4c4054ea943cb93367b63a9e3673
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  MineLib: 0cc2334e9a4fa057bc217d54c943b87ba4cd41d0
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: 03b74c63c83e0faa8b64a5df9b804bf047c64b5d
+
+COCOAPODS: 1.11.2

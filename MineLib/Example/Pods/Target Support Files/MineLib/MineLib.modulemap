@@ -1,0 +1,6 @@
+framework module MineLib {
+  umbrella header "MineLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
